@@ -1,1 +1,37 @@
-[{"route":"/blog/2021-01-10-blog","title":"2021-01-10-blog","description":"blog description","published":true,"slugs":["kjw5t0ft_S1M3Mk8Cr6nY9JPf5yP5RxZW12fUkVEJ"],"sourceFile":"2021-01-10-blog.md"},{"route":"/blog/kjw5t0ft_S1M3Mk8Cr6nY9JPf5yP5RxZW12fUkVEJ","title":"2021-01-10-blog","description":"blog description","published":true,"slugs":["kjw5t0ft_S1M3Mk8Cr6nY9JPf5yP5RxZW12fUkVEJ"],"sourceFile":"2021-01-10-blog.md"},{"route":"/blog/why-i-moved-from-vuepress-to-angular-with-scully","title":"Why I moved from Vuepress to Angular with Scully","description":"blog description","published":true,"slugs":["kjw7tzxj_6XtuqNCFEsRONIMyWJzvNYBZPWqbe9mz"],"sourceFile":"why-i-moved-from-vuepress-to-angular-with-scully.md"},{"route":"/blog/kjw7tzxj_6XtuqNCFEsRONIMyWJzvNYBZPWqbe9mz","title":"Why I moved from Vuepress to Angular with Scully","description":"blog description","published":true,"slugs":["kjw7tzxj_6XtuqNCFEsRONIMyWJzvNYBZPWqbe9mz"],"sourceFile":"why-i-moved-from-vuepress-to-angular-with-scully.md"},{"route":"/"},{"route":"/about"},{"route":"/projects"}]
+[
+  {
+    "route": "/blog/2021-01-10-blog",
+    "title": "2021-01-10-blog",
+    "description": "blog description",
+    "published": true,
+    "slugs": ["dummy-first-post"],
+    "sourceFile": "2021-01-10-blog.md"
+  },
+  {
+    "route": "/blog/dummy-first-post",
+    "title": "2021-01-10-blog",
+    "description": "blog description",
+    "published": true,
+    "slugs": ["dummy-first-post"],
+    "sourceFile": "2021-01-10-blog.md"
+  },
+  {
+    "route": "/blog/why-i-moved-from-vuepress-to-angular-with-scully",
+    "title": "Why I moved from Vuepress to Angular with Scully",
+    "description": "blog description",
+    "published": true,
+    "slugs": ["moving-from-vuepress-to-angular"],
+    "sourceFile": "why-i-moved-from-vuepress-to-angular-with-scully.md"
+  },
+  {
+    "route": "/blog/moving-from-vuepress-to-angular",
+    "title": "Why I moved from Vuepress to Angular with Scully",
+    "description": "blog description",
+    "published": true,
+    "slugs": ["moving-from-vuepress-to-angular"],
+    "sourceFile": "why-i-moved-from-vuepress-to-angular-with-scully.md"
+  },
+  { "route": "/" },
+  { "route": "/about" },
+  { "route": "/projects" }
+]

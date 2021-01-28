@@ -1,10 +1,16 @@
+<header>
+  <blog-header></blog-header>
+</header>
+
 <h1>NG Blog</h1>
 
-<footer>
-  <ul>
-    <li *ngFor="let route of scully.available$ | async">
-      <a [routerLink]="route.route">{{ route.title || route.route }}</a>
-    </li>
-  </ul>
-</footer>
+<ul>
+  <li *ngFor="let route of scully.available$ | async">
+    <a [routerLink]="route.route">{{ route.title || route.route }}</a>
+  </li>
+</ul>
 <router-outlet></router-outlet>
+
+<footer>
+  <blog-footer></blog-footer>
+</footer>
