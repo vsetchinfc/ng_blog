@@ -1,1 +1,32 @@
-<p>blog-footer works!</p>
+<div class="container">
+  <div class="row justify-content-between align-items-center">
+    <div class="col-lg-2 col-sm-12">
+      <ul class="contact" v-if="contact">
+        <li class="contact-item">
+          <a href="https://github.com/vsetchinfc" target="_blank">
+            <i-feather name="github"></i-feather>
+          </a>
+        </li>
+        <li class="contact-item">
+          <a href="https://twitter.com/vladsetchin" target="_blank">
+            <i-feather name="twitter"></i-feather>
+          </a>
+        </li>
+        <li class="contact-item">
+          <a href="https://www.linkedin.com/in/vladsetchin" target="_blank">
+            <i-feather name="linkedin"></i-feather>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-lg-3 col-sm-12">
+      <ul class="copyright">
+        <li class="copyright-item">
+          <a href="">Copyright © 2021 Vlad Setchin</a>
+          <!-- <a :href="item.link">{{ item.text }}</a> -->
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
