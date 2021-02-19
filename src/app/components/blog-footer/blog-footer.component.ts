@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BlogConfigService } from 'src/app/services';
 
 @Component({
   selector: 'blog-footer',
@@ -6,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog-footer.component.scss'],
 })
 export class BlogFooterComponent implements OnInit {
-  constructor() {}
+  constructor(private blogConfigService: BlogConfigService) {}
 
   ngOnInit(): void {}
+
+  get fullName() {
+    return this.blogConfigService.fullName;
+  }
 }
