@@ -5,8 +5,10 @@ export interface BlogConfig {
   blog_version: string;
   full_name: string;
   blog_name: string;
+  github_social_contact: string;
+  twitter_social_contact: string;
+  linkedin_social_contact: string;
 }
-
 @Injectable({
   providedIn: 'root',
 })
@@ -35,5 +37,17 @@ export class BlogConfigService {
 
   get blogName() {
     return this.blogConfig.blog_name;
+  }
+
+  get twitter_social_contact() {
+    return this.blogConfig.twitter_social_contact;
+  }
+
+  get github_social_contact() {
+    return this.blogConfig.github_social_contact;
+  }
+
+  get linkedin_social_contact() {
+    return this.blogConfig.linkedin_social_contact;
   }
 }
